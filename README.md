@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+# Coding in Clave
+This website is based on [jekyll-uno](https://github.com/joshgerdes/jekyll-uno).
 
-You can use the [editor on GitHub](https://github.com/vmorenoluna/vmorenoluna.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## jekyll-uno
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-### Markdown
+> :warning:
+  This theme requires ruby and rubygems installed
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
 
-```markdown
-Syntax highlighted code block
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+### Install and Test
 
-1. Numbered
-2. List
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-**Bold** and _Italic_ and `Code` text
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
 
-[Link](url) and ![Image](src)
+If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
+
 ```
+source 'https://rubygems.org'
+gem 'jekyll-paginate'
+gem 'jekyll-watch'
+gem 'kramdown'
+gem 'kramdown-parser-gfm'
+```
+---
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Copyright and license
 
-### Jekyll Themes
+### Coding in Clave
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vmorenoluna/vmorenoluna.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The content of the blog are property of Vincenzo Moreno Luna, all rights reserved
+Copyright (c) Vincenzo Moreno Luna
 
-### Support or Contact
+### Jekyll-Uno
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Jekyll-Uno is under the MIT license:
+
+The MIT License (MIT)
+
+Copyright (c) 2016 Josh Gerdes
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
