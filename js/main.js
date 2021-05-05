@@ -61,7 +61,7 @@ exclude: 'yes'
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
 
-    $('.navigation-wrapper .cover-button').click(function () {
+    $('.navigation-wrapper .about-button').click(function () {
         $('.navigation-wrapper').toggleClass('visible')
         $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
