@@ -46,9 +46,9 @@ exclude: 'yes'
           $('.panel-cover').addClass('panel-cover--collapsed')
       }
 
-        if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
-            $('.panel-cover').addClass('panel-cover--collapsed')
-        }
+      if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
+          $('.panel-cover').addClass('panel-cover--collapsed')
+      }
     {% endif %}
 
     $('.btn-mobile-menu').click(function () {
