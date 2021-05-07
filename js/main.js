@@ -9,7 +9,6 @@ exclude: 'yes'
         $('a.blog-button').click(function (e) {
             if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
                 $('#root').load('/index.html #blog')
-                return
             }
             currentWidth = $('.panel-cover').width()
             if (currentWidth < 960) {
@@ -23,13 +22,13 @@ exclude: 'yes'
         })
 
         if (window.location.hash && window.location.hash == '#blog') {
+            $('#root').load('/index.html #blog')
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
       $('a.about-button').click(function (e) {
           if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
               $('#root').load('/index.html #about')
-              return
           }
           currentWidth = $('.panel-cover').width()
           if (currentWidth < 960) {
@@ -43,6 +42,7 @@ exclude: 'yes'
       })
 
       if (window.location.hash && window.location.hash == '#about') {
+          $('#root').load('/index.html #about')
           $('.panel-cover').addClass('panel-cover--collapsed')
       }
 
