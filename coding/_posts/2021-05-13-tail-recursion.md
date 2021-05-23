@@ -211,6 +211,10 @@ def octaveUp(pitches: List[Int]): List[Int] = {
   go(pitches, List.empty)
 }
 ```
+<br/>
+
+I hope you found this interesting, see you in the next post!  
+{: .text-justify}
 
 
 
