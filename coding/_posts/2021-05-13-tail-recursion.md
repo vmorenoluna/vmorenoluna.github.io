@@ -213,7 +213,7 @@ def octaveUp(pitches: List[Int]): List[Int] = {
 ```
 <br/>
 
-I hope you found this interesting, see you in the next post!  
+I hope you found this interesting. See you in the next post!  
 {: .text-justify}
 
 
