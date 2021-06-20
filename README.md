@@ -1,6 +1,10 @@
 # Coding in Clave
 This website is based on [jekyll-uno](https://github.com/joshgerdes/jekyll-uno).
 
+## Run locally
+
+`bundle exec jekyll serve --trace --watch`
+
 ## jekyll-uno
 
 Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
